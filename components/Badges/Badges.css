@@ -1,0 +1,50 @@
+.avatar-badge{
+    height: 1rem;
+    width: 1rem;
+    border-radius: var(--border-radius-f);
+    position: relative;
+   bottom: 1.75rem;
+   left: 3.75rem;
+   border: 1px solid white;
+}
+.red-badge{
+    background-color: red;
+}
+
+.green-badge{
+   background-color: green;
+}
+
+
+
+
+.icon{
+    display: flex;
+    gap:2.5%;
+}
+
+.fas{
+    font-size: var(--text-size-xl);
+}
+.icon-badge{
+  font-size: var(--text-size-m);
+  width: 1.25rem;
+  height: 1.25rem;
+  padding: 0.35rem 0.35rem;
+  border-radius: var(--border-radius-f);
+  
+
+}
+
+.home-icon-badge{
+    width: fit-content;
+    padding: 0.5rem 0.5rem;
+    border-radius: var(--border-radius-l);
+}
+.badge{
+    background-color: var(--secondary-color);
+    position: relative;
+    bottom: 3.5rem;
+    left: 2rem;
+    font-weight: bold;
+}
