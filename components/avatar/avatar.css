@@ -5,18 +5,18 @@
 
 
 .sm-rounded-avatar{
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: var(--border-radius-f);
 }
 .md-rounded-avatar{
-    height:80px;
-    width: 80px;
+    height:5rem;
+    width: 5rem;
     border-radius: var(--border-radius-f);
 }
 .lg-rounded-avatar{
-    height: 120px;
-    width: 120px;
+    height: 7.5rem;
+    width: 7.5rem;
     border-radius: var(--border-radius-f);
 }
 
@@ -30,18 +30,18 @@
 /* square avatar */
 
 .sm-square-avatar{
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: var(--border-radius-l);
 }
 .md-square-avatar{
-    height: 80px;
-    width: 80px;
+    height: 5rem;
+    width: 5rem;
     border-radius: var(--border-radius-l);
 }
 .lg-square-avatar{
-    height: 120px;
-    width: 120px;
+    height: 7.5rem;
+    width: 7.5rem;
     border-radius: var(--border-radius-l);
 }
 
@@ -76,17 +76,17 @@
 
 .sm-text-avatar{
     height: fit-content;
-    font-size: 25px;
+    font-size: 1.5rem;
     border-radius: var(--border-radius-l);
 }
 .md-text-avatar{
     height: fit-content;
-    font-size: 50px;
+    font-size: 3rem;
     border-radius: var(--border-radius-l);
 }
 .lg-text-avatar{
     height: fit-content;
-     font-size: 75px;
+     font-size: 4.5rem;
     border-radius: var(--border-radius-l);
 }
 
