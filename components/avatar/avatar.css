@@ -1,0 +1,92 @@
+
+
+/* round avatar */
+
+
+
+.sm-rounded-avatar{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: var(--border-radius-f);
+}
+.md-rounded-avatar{
+    height:5rem;
+    width: 5rem;
+    border-radius: var(--border-radius-f);
+}
+.lg-rounded-avatar{
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: var(--border-radius-f);
+}
+
+.round-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5%;
+}
+
+/* square avatar */
+
+.sm-square-avatar{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: var(--border-radius-l);
+}
+.md-square-avatar{
+    height: 5rem;
+    width: 5rem;
+    border-radius: var(--border-radius-l);
+}
+.lg-square-avatar{
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: var(--border-radius-l);
+}
+
+.square-avatar{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2.5%;
+}
+
+/* text avatar */
+.text-avatar{
+
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2.5%;
+}
+.text-sizes{
+    display: flex;
+    align-items: flex-end;
+    gap: 2.5%;
+}
+
+.text{
+    
+    background-color: var(--secondary-color) ;
+    padding : 0.5rem 0.5rem ;
+
+}
+
+.sm-text-avatar{
+    height: fit-content;
+    font-size: 1.5rem;
+    border-radius: var(--border-radius-l);
+}
+.md-text-avatar{
+    height: fit-content;
+    font-size: 3rem;
+    border-radius: var(--border-radius-l);
+}
+.lg-text-avatar{
+    height: fit-content;
+     font-size: 4.5rem;
+    border-radius: var(--border-radius-l);
+}
+
