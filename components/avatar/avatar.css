@@ -1,9 +1,4 @@
-
-
 /* round avatar */
-
-
-
 .sm-rounded-avatar{
     height: 2.5rem;
     width: 2.5rem;
@@ -19,7 +14,6 @@
     width: 7.5rem;
     border-radius: var(--border-radius-f);
 }
-
 .round-avatar{
     display: flex;
     flex-direction: column;
@@ -44,7 +38,6 @@
     width: 7.5rem;
     border-radius: var(--border-radius-l);
 }
-
 .square-avatar{
     display: flex;
     align-items: flex-start;
@@ -53,8 +46,8 @@
 }
 
 /* text avatar */
-.text-avatar{
 
+.text-avatar{
     text-align: center;
     display: flex;
     align-items: flex-start;
@@ -66,14 +59,10 @@
     align-items: flex-end;
     gap: 2.5%;
 }
-
 .text{
-    
     background-color: var(--secondary-color) ;
     padding : 0.5rem 0.5rem ;
-
 }
-
 .sm-text-avatar{
     height: fit-content;
     font-size: 1.5rem;
