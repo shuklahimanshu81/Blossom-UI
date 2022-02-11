@@ -33,55 +33,43 @@
     --text-size-l : 32px;
     --text-size-xl : 48px;
   }
-
-  *{
+*{
       padding: 0 0 ;
       margin: 0 0;     
   }
-  body {
+body {
     font-family: "Playfair Display", serif;
     background-color: var(--background-color);
     margin: 0 8px;
   }
-
-  .main-heading{
-      
+.main-heading{
       font-size: var(--heading);
       font-weight: bold;
       color: var(--primary-color);
       margin-left: 2rem;
-      
-  }
-
-  nav{
+}
+nav{
       align-items: center;
       display: flex;
       flex-wrap: wrap;
       height: 125px;
-     
-      
-  }
-  .navigation{
-     
+}
+.navigation{
       display: flex;
       gap: 32px;
       margin-left: auto;
       margin-right: 2rem;
       padding: 8px 8px;
-      
-
-  }
-  .nav-items{
+}
+.nav-items{
       list-style-type: none;
       font-size: var(--text-size-m);
       font-weight: bold;
       color: var(--primary-color);
   }
-  a{
+a{
       text-decoration: none;
-      
-   }
-
+}
 .main-section{
     align-items: center;
     box-sizing: border-box;
@@ -91,12 +79,10 @@
     justify-content: center;
     text-align: center;
 }
-
 .heading{
     font-size: var(--heading);
     font-weight: 800;
     padding: 2.5%;
-
 }
 .sub-heading{
     font-size: var(--subheading-2);
@@ -104,7 +90,6 @@
     padding-bottom: 5%;
     width: 60%;
 }
-
 .btn{
     padding: 1.2rem 1.2rem;
     border-radius: var(--border-radius-l);
@@ -114,7 +99,6 @@
 .primary-btn{
     background-color: var(--primary-btn-color);
 }
-
 footer{
    background-color: var(--secondary-color);
    border-top: 2.5px solid var(--primary-color);
@@ -123,14 +107,12 @@ footer{
    text-align: center;
    width: 100%;
    padding-top: 0.5rem;
-   
 }
 .conctn-list{
     align-items: center;
     display: flex;
     justify-content: center;
     list-style-type: none;
-    
 }
 .conctn-option{
     padding: 1rem 1rem;
