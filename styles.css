@@ -12,6 +12,7 @@
     --warning-color: #ffbd35;
     --gray: #c5c5c5;
     --white: #ffffff;
+    --black:black;
     
   }
 
@@ -40,7 +41,7 @@
 body {
     font-family: "Playfair Display", serif;
     background-color: var(--background-color);
-    margin: 0 8px;
+    /* margin: 0 8px; */
   }
 .main-heading{
       font-size: var(--heading);
