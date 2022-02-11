@@ -1,0 +1,46 @@
+.txt-input{
+    display: block;
+    min-width: 10rem;
+    border: 2.5px solid var(--black);
+    border-radius: var(--border-radius-sm);
+    font-size: 1rem;
+    min-height: 12rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    resize: none;
+    font-family: inherit;
+}
+
+.input{
+    
+    color: var(--black);
+    font-weight: bold;
+    height: 1.5rem;
+    width: 15rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.btn,.input{
+    padding: 0.5rem;
+    font-size: var(--text-size-s);
+    border-radius: var(--border-radius-m);
+}
+.form,.textbox{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    border: solid 2.5px var(--gray);
+    padding: 1rem;
+    border-radius: var(--border-radius-m);
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+}
+.input-error{
+    border: 2.5px solid var(--danger-color);
+}
+.error-msg{
+    color: var(--danger-color);
+    font-size: calc(var(--text-size-s) + 2px );
+}
