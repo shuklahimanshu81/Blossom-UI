@@ -1,21 +1,15 @@
 /* color vars */
 :root {
     --background-color: #DBEAFE;
-    
     --primary-color: #551A8B;
-    
-   
     --secondary-color: #bfdbfe;
     --primary-btn-color: #93C5FD;
     --secondary-btn-color: #A7F3D0;
     --primary-hover-color:#3B82F6;
     --secondary-hover-color : #34D399;
-
-   
     --danger-color: #DC2626;
     --success-color: #059699;
     --warning-color: #ffbd35;
-
     --gray: #c5c5c5;
     --white: #ffffff;
     
