@@ -7,7 +7,7 @@ nav{
     flex-wrap: nowrap;
     height: 4.5rem;
  }
-.logo-imgi{
+.logo-img{
     height:4.5rem;
     aspect-ratio: 1/1;
     border-radius:var(--border-radius-f);
@@ -25,9 +25,6 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.item{
-    font-size: var(--text-size-s);
-}
 .btn{
     height: 2rem;
     width: 5rem;
@@ -35,24 +32,12 @@ nav{
     font-weight: bold;
     padding: 0 0;
 }
-ion-icon{
-    font-size: 2.5rem;
-}
 .list-item{
     margin-right:4rem;
 }
-.cart{
-  display:flex;
-}
-.icon-badge{
-    margin:-0.75rem;
-    color: var(--black);
+.badge{
     background-color: var(--gray);
- }
- .favourites{
-    display: flex;
 }
-.fav{
-    margin-left: -1.25rem;
-    z-index: 1;
+.item{
+    color: var(--primary-color);
 }

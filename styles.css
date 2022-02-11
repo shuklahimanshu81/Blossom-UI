@@ -119,3 +119,6 @@ footer{
     padding: 1rem 1rem;
     font-size: var(--text-size-l);
 }
+.flex{
+    display: flex;
+}
