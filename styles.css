@@ -1,4 +1,4 @@
-@import url('/main-css/main.css');
+
 /* color vars */
 :root {
     --background-color: #DBEAFE;
@@ -125,3 +125,4 @@ footer{
 .grid{
     display: grid;
 }
+@import url('/main-css/main.css');
