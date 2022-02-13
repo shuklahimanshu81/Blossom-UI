@@ -31,7 +31,6 @@
 .icon-btn{
     padding: 0.25rem 0.5rem;
     height: 2rem;
-    width: rem;
     font-size: var(--text-size-s);
     border-radius: var(--border-radius-l);
 }
