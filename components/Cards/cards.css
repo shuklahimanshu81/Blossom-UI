@@ -1,0 +1,118 @@
+body{
+    background-color: var(--white);
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 5px;
+    align-items: center;
+}
+.card-section{
+    background-color: var(--white);
+    box-shadow: 10px 10px 5px var(--gray);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding:0.5rem 0.5rem;
+    width: 17.5rem;
+}
+.card-img-section{
+    display: flex;
+    justify-content: center;
+}
+.card-img{
+    height: 17.5rem;
+    width: 15rem;
+}
+.card-heading{
+    font-size: var(--text-size-l);
+    font-weight: bold;
+}
+.card-subheading{
+    font-size: calc(var(--text-size-s) + 4px);
+}
+.card-detail{
+   font-size: var(--text-size-m);
+}
+.card-btn{
+    border-radius: var(--border-radius-l);
+    font-size: var(--text-size-s);
+    height: 2rem;
+    padding: 0.25rem 0.5rem;
+    width: 7.5rem;    
+}
+.card-primary-btn{
+    border: 2.5px solid var(--white);
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+.card-secondary-btn{
+    border: 2.5px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.vertical-card{
+    box-sizing: border-box;
+}
+.card-badge{
+    background-color: var(--secondary-color);
+    border-top-right-radius: var(--border-radius-f);
+    border-bottom-right-radius: var(--border-radius-f);
+    bottom: 26rem ;
+    font-size: calc(var(--text-size-m) - 4px);
+    padding: 0.5rem 0.5rem;
+    position: relative;
+    width: fit-content;
+}
+.horizontal-card{
+    align-items: center;
+    background-color: var(--white);
+    box-shadow: 10px 10px 5px var(--gray);
+    display: flex;
+    gap: 2.5%;
+    justify-content: flex-start;   
+    padding:0.5rem 0.5rem;
+    width: fit-content;
+    height: fit-content;
+}
+.hz-card-img{
+    height: 10rem;
+    width: 10rem;
+}
+.about-card{
+  display: flex;
+  flex-direction: column;
+}
+.dismiss-btn{
+    background-color: var(--white);
+    border-radius: var(--border-radius-f);
+    border: none;
+    bottom: 24rem;
+    color:gray;
+    font-size: var(--text-size-m);
+    font-weight: bold;
+    height: 2rem;
+    position: relative;
+    right: 1.5rem;
+    width: 2rem;
+}
+.text-only-card{
+    background-color:var(--gray);
+    border-radius: var(--border-radius-m);
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+.text-overlay-card{
+    box-shadow: none;
+    opacity: 0.5;
+}
+.text-overlay{
+    position: relative;
+    bottom: 14.5rem;
+    width:17.5rem ;
+    background-color: var(--gray);
+    font-size: var(--text-size-m);
+    font-weight: 600;
+    text-align: center;
+}
+

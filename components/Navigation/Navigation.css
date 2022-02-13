@@ -1,0 +1,43 @@
+
+nav{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 4.5rem;
+ }
+.logo-img{
+    height:4.5rem;
+    aspect-ratio: 1/1;
+    border-radius:var(--border-radius-f);
+    margin-left: 2rem;
+}
+.search-bar{
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: var(--border-radius-l);
+    border: 2.5px solid var(--primary-color);
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 2rem;
+    width: 5rem;
+    font-size: calc(var(--text-size-s) + 4px);
+    font-weight: bold;
+    padding: 0 0;
+}
+.list-item{
+    margin-right:4rem;
+}
+.badge{
+    background-color: var(--gray);
+}
+.item{
+    color: var(--primary-color);
+}
