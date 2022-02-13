@@ -1,0 +1,24 @@
+.two-box-grid{
+    grid-template-columns: 1fr 1fr;
+}
+.three-box-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid{
+    gap: 5%;
+    margin-top: 0.5rem;
+}
+.box{
+    box-sizing: border-box;
+    border: 2.5px solid var(--black);
+    border-radius: var(--border-radius-m);
+    margin: auto;
+    width: 15rem;
+    height: 13.5rem;
+    font-size: var(--text-size-m);
+    background-color: var(--gray);
+}
+.flex{
+    align-items: center;
+    justify-content: center;
+}

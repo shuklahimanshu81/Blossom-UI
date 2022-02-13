@@ -24,15 +24,15 @@
     --border-radius-l : 15px;
     --border-radius-f : 999px;
 
-    --heading : 40px;
-    --subheading-1 : 32px;
-    --subheading-2: 24px;
+    --heading : 2.5rem;
+    --subheading-1 :2rem;
+    --subheading-2: 1.5rem;
     
-    --text-size-xs : 8px;
-    --text-size-s : 16px;
-    --text-size-m : 24px;
-    --text-size-l : 32px;
-    --text-size-xl : 48px;
+    --text-size-xs : 0.5rem;
+    --text-size-s : 1rem;
+    --text-size-m : 1.5rem;
+    --text-size-l :2rem;
+    --text-size-xl : 3rem;
   }
 *{
       padding: 0 0 ;
@@ -41,7 +41,6 @@
 body {
     font-family: "Playfair Display", serif;
     background-color: var(--background-color);
-    /* margin: 0 8px; */
   }
 .main-heading{
       font-size: var(--heading);
@@ -57,10 +56,10 @@ nav{
 }
 .navigation{
       display: flex;
-      gap: 32px;
+      gap: 2rem;
       margin-left: auto;
       margin-right: 2rem;
-      padding: 8px 8px;
+      padding: 0.5rem;
 }
 .nav-items{
       list-style-type: none;
@@ -121,4 +120,7 @@ footer{
 }
 .flex{
     display: flex;
+}
+.grid{
+    display: grid;
 }
