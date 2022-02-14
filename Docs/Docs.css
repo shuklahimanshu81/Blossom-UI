@@ -16,9 +16,6 @@ border-bottom: 1.5px solid var(--black);
     padding-right: 4.5rem;
     
 }
-a{
-    color: var(--black);
-}
 .list{
     list-style-type: none;
     padding-top: 1rem;
