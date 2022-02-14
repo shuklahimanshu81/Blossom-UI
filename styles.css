@@ -1,4 +1,3 @@
-
 /* color vars */
 :root {
     --background-color: #DBEAFE;
@@ -50,10 +49,10 @@ body {
       margin-left: 2rem;
 }
 nav{
+    height: 125px;
       align-items: center;
       display: flex;
       flex-wrap: wrap;
-      height: 125px;
 }
 .navigation{
       display: flex;
@@ -92,32 +91,11 @@ a{
     width: 60%;
 }
 .btn{
-    padding: 1.2rem 1.2rem;
     border-radius: var(--border-radius-l);
     border: 2.5px solid black;
-    font-size: var(--text-size-m);
 }
 .primary-btn{
     background-color: var(--primary-btn-color);
-}
-footer{
-   background-color: var(--secondary-color);
-   border-top: 2.5px solid var(--primary-color);
-   font-size: var(--text-size-m);
-   height: 100px;
-   text-align: center;
-   width: 100%;
-   padding-top: 0.5rem;
-}
-.conctn-list{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-.conctn-option{
-    padding: 1rem 1rem;
-    font-size: var(--text-size-l);
 }
 .flex{
     display: flex;
@@ -125,4 +103,3 @@ footer{
 .grid{
     display: grid;
 }
-@import url('/main-css/main.css');
