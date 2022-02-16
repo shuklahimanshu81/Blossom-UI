@@ -33,7 +33,7 @@ nav{
     padding: 0 0;
 }
 .list-item{
-    margin-right:4rem;
+    margin-left:4rem;
 }
 .badge{
     background-color: var(--gray);
@@ -41,3 +41,14 @@ nav{
 .item{
     color: var(--primary-color);
 }
+.right-nav-menu{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .right-nav{
+        display: none;
+    }
+    .right-nav-menu{
+        display: block;
+    }
+  }
