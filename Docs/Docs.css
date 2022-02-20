@@ -12,8 +12,11 @@ padding: 0.5rem;
 border-bottom: 1.5px solid var(--black);
 }
 .side-navbar{
-    font-size: var(--text-size-m);
-    padding-right: 4.5rem;
+    font-size: calc(var(--text-size-m) - 4px);
+    height: fit-content;
+    padding:2rem 2.5rem;
+    border-bottom: 2.5px solid var(--black);
+    
     
 }
 .list{
@@ -30,7 +33,7 @@ border-bottom: 1.5px solid var(--black);
 }
 .content-subsection{
     background-color: var(--white);
-    border: 2.5px solid var(--gray);
+    border: 2.5px solid var(--black);
     border-radius: var(--border-radius-l);
     flex-direction: column;
     margin-bottom: 2.5rem;
@@ -40,4 +43,26 @@ border-bottom: 1.5px solid var(--black);
     font-size: calc(var(--text-size-m));
     font-weight: bold;
     padding-bottom: 1rem;
+}
+.main-section-components-demo{
+    display: flex;
+    
+}
+.subsection{
+    border: 2.5px solid var(--gray);
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.subsection :nth-child(n){
+    margin-bottom: 1rem;
+}
+.component:hover{
+    font-size: calc(var(--text-size-m) - 2px );
+    text-align: center;
+    background-color: var(--primary-hover-color);
+    opacity: 0.75;
+}
+.content-section{
+    margin: auto;
 }
