@@ -1,3 +1,6 @@
 .subsection :nth-child(n){
     margin-bottom: 0;
 }
+iframe{
+    margin: 1.5rem;
+}

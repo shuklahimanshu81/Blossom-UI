@@ -7,7 +7,6 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    
 }
 ion-icon{
     color: black;
@@ -41,10 +40,11 @@ ion-icon{
     padding: 0 0;
 }
 .list-item{
-    margin-left:4rem;
+    margin-left:2.5rem;
 }
 .badge{
     background-color: var(--gray);
+   
 }
 .item{
     color: var(--primary-color);
