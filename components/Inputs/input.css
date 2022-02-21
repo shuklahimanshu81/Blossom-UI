@@ -28,7 +28,7 @@
 }
 .form,.textbox{
     display: flex;
-    width: 20%;
+   width: fit-content;
     flex-direction: column;
     border: solid 2.5px var(--gray);
     padding: 1rem;
