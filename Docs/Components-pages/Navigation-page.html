@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/components/Navigation/Navigation.css">
+    <link rel="stylesheet" href="/Docs/Docs.css">
+    <link rel="stylesheet" href="/Docs/Components-pages/Component-pages-common.css">
+    <title> Blossom UI/Docs</title>
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <a href="/index.html" class="main-heading"> Blossom UI </a>
+        </div>
+        <ul class="navigation">
+            <li class="nav-items"> <a class="nav-items" href="/Docs/Components-pages/Alerts-page.html"> Documentaton </a></li>
+            <li class="nav-items"> <a class="nav-items" href="/Docs/Docs.html"> Get Started </a></li>
+        </ul>
+    </nav>
+    <main class="main-section-components-demo">
+        <aside class="side-navbar">
+            <div class="section-heading">
+                Get Started
+            </div>
+            <ul class="list">
+                <li class="component"><a href="#Intro"> Introduction </a></li>
+            </ul>
+            <div class="section-heading">
+                Components
+            </div>
+            <ul class="list">
+                <li class="component active"><a href="/Docs/Components-pages/Alerts-page.html"> Alerts </a></li>
+                <li class="component"><a href="/components/avatar/avatar.html"> Avatars </a></li>
+                <li class="component"><a href="/components/Badges/Badges.html"> Badges </a></li>
+                <li class="component"><a href="/components/Buttons/Buttons.html"> Buttons </a></li>
+                <li class="component"><a href="/components/Cards/cards.html"> Cards </a></li>
+                <li class="component"><a href="/components/Grids/Grids.html"> Grids </a></li>
+                <li class="component"><a href="/components/Inputs/input.html"> Inputs </a></li>
+                <li class="component"><a href="/components/Navigation/Navigation.html"> Navigation </a></li>
+                <li class="component"><a href="/components/responsive-imgs/responsive-imgs.html"> Responsive Images</a></li>
+                <li class="component"><a href="/components/text-utilities/text-utilities.html"> Typography </a></li>
+            </ul>
+        </aside>
+        <section class="content-section">
+            <section class="content-subsection flex">
+                <p class="heading"> Alerts </p>
+                <p class="para-heading">   </p>
+                <p class="content">
+                   Alerts are used to show user important messages without interrupting user's tasks.
+                </p>
+        <section class="content-subsection subsection flex" id="#installation">
+            <h2 class="component-demo-heading"> Simple Alerts </h2>
+            <p class="content"> Simple alerts can be used by adding <span class="class-is">simple</span> and <span class="class-is">alert</span> class to the element followed by variant of alert. </p>
+
+            <nav>
+                <div>
+                    <a href=""> <img src="/components/images/Blossom.png" alt="Blossom store" class="logo-img"></a>
+        
+                </div>
+                <div class="nav-center">
+                    <input class="search-bar" type="text" placeholder="Search here..." />
+                </div>
+                <div class="right-nav">
+                    <ul class="nav-items">
+                        <li class="list-item">
+                            <button class="primary-btn btn">Log In </button>
+                        </li>
+                        <li class="list-item flex">
+                            <a class="item" href="">
+                                <ion-icon name="cart"></ion-icon>
+                            </a>
+                            <div class="icon-badge badge"> 4 </div>
+        
+                        </li>
+                        <li class="list-item flex">
+                            <a class="item" href="">
+                                <ion-icon name="heart-outline"></ion-icon>
+                            </a>
+                            <p class="icon-badge badge"> 9 </p>
+                        </li>
+                    </ul>
+                </div>
+        
+            </nav>
+            
+        </section>
+        <section class="content-subsection subsection flex" >
+            <h2 class="component-demo-heading"> Outline Alerts </h2>
+            <p class="content"> Outline alerts can be used by adding variant of alert as class followed by <span class="class-is">alert</span> class to the element . </p>
+
+            <div class="component-demo">
+                <div class="outline-primary-alert alert">
+                    <b> Primary! </b> This is primary alert.
+                </div>
+                <div class="outline-success-alert alert">
+                    <b> Success! </b> This is success alert.
+                </div>
+                <div class="outline-error-alert alert">
+                    <b> Error! </b> This is Error alert.
+                </div>
+                <div class="outline-warning-alert alert">
+                    <b> Warning! </b> This is warning alert.
+                </div>
+            </div>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-primary-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Primary%21%2520%253C%252Fb%253E%2520This%2520is%2520primary%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-success-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Success%21%2520%253C%252Fb%253E%2520This%2520is%2520success%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-error-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Error%21%2520%253C%252Fb%253E%2520This%2520is%2520Error%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-warning-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Warning%21%2520%253C%252Fb%253E%2520This%2520is%2520warning%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="width: 563px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </section>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
