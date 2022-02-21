@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 .grid{
-    gap: 5%;
+    /* gap: 2.5%; */
     margin-top: 0.5rem;
 }
 .box{
@@ -18,7 +18,7 @@
     font-size: var(--text-size-m);
     background-color: var(--gray);
 }
-.flex{
+/* .flex{
     align-items: center;
     justify-content: center;
-}
+} */
