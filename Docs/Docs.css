@@ -27,9 +27,8 @@ border-bottom: 1.5px solid var(--black);
     padding: 0.5rem;
 }
 .content{
-   
+    margin-left: 1.5rem;
     font-size: calc(var(--text-size-m) - 4px);
-
 }
 .content-subsection{
     background-color: var(--white);
@@ -65,4 +64,8 @@ border-bottom: 1.5px solid var(--black);
 }
 .content-section{
     margin: auto;
+}
+.flex-btn{
+    display: flex;
+    gap: 2.5%;
 }
