@@ -1,12 +1,20 @@
 
-nav{
-    background-color: var(--secondary-color);
+ .nav-component{
+    border-bottom: 1.5px solid var(--gray);
+    height: 5rem;
+    background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    height: 4.5rem;
- }
+    
+}
+ion-icon{
+    color: black;
+}
+.search-bar{
+    border: 2.5px solid var(--black);
+}
 .logo-img{
     height:4.5rem;
     aspect-ratio: 1/1;
