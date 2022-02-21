@@ -1,0 +1,25 @@
+
+.btn{
+    padding: 1.2rem 1.2rem;
+    
+    font-size: var(--text-size-m);
+}
+footer{
+    background-color: var(--secondary-color);
+    border-top: 2.5px solid var(--primary-color);
+    font-size: var(--text-size-m);
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    padding-top: 0.5rem;
+ }
+ .conctn-list{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.conctn-option{
+    padding: 1rem 1rem;
+    font-size: var(--text-size-l);
+}
