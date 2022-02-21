@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/components/Badges/Badges.css">
     <link rel="stylesheet" href="/components/Navigation/Navigation.css">
     <link rel="stylesheet" href="/Docs/Docs.css">
     <link rel="stylesheet" href="/Docs/Components-pages/Component-pages-common.css">
@@ -14,7 +15,6 @@
 </head>
 
 <body>
-
     <nav>
         <div>
             <a href="/index.html" class="main-heading"> Blossom UI </a>
@@ -50,16 +50,14 @@
         </aside>
         <section class="content-section">
             <section class="content-subsection flex">
-                <p class="heading"> Alerts </p>
-                <p class="para-heading">   </p>
+                <p class="heading"> Navigation </p>
                 <p class="content">
-                   Alerts are used to show user important messages without interrupting user's tasks.
+                   Navigation are helpful to navigate inside a webApp. So here is a simple navigation that you can use in your project.
                 </p>
         <section class="content-subsection subsection flex" id="#installation">
-            <h2 class="component-demo-heading"> Simple Alerts </h2>
-            <p class="content"> Simple alerts can be used by adding <span class="class-is">simple</span> and <span class="class-is">alert</span> class to the element followed by variant of alert. </p>
+            <h2 class="component-demo-heading"> Simple Navigation </h2>
 
-            <nav>
+            <nav class="nav-component">
                 <div>
                     <a href=""> <img src="/components/images/Blossom.png" alt="Blossom store" class="logo-img"></a>
         
@@ -87,33 +85,15 @@
                         </li>
                     </ul>
                 </div>
-        
-            </nav>
-            
-        </section>
-        <section class="content-subsection subsection flex" >
-            <h2 class="component-demo-heading"> Outline Alerts </h2>
-            <p class="content"> Outline alerts can be used by adding variant of alert as class followed by <span class="class-is">alert</span> class to the element . </p>
-
-            <div class="component-demo">
-                <div class="outline-primary-alert alert">
-                    <b> Primary! </b> This is primary alert.
+                <div class="right-nav-menu">
+                    <ion-icon name="menu-outline"></ion-icon>
                 </div>
-                <div class="outline-success-alert alert">
-                    <b> Success! </b> This is success alert.
-                </div>
-                <div class="outline-error-alert alert">
-                    <b> Error! </b> This is Error alert.
-                </div>
-                <div class="outline-warning-alert alert">
-                    <b> Warning! </b> This is warning alert.
-                </div>
-            </div>
+            </nav>           
             <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-primary-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Primary%21%2520%253C%252Fb%253E%2520This%2520is%2520primary%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-success-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Success%21%2520%253C%252Fb%253E%2520This%2520is%2520success%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-error-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Error%21%2520%253C%252Fb%253E%2520This%2520is%2520Error%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522outline-warning-alert%2520alert%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%253E%2520Warning%21%2520%253C%252Fb%253E%2520This%2520is%2520warning%2520alert.%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="width: 563px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-component%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%253E%253Cimg%2520src%253D%2522img.jpg%2522%2520alt%253D%2522alt-text%2522%2520class%253D%2522logo-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-center%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-bar%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522%2520%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522right-nav%2522%253E%250A%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522primary-btn%2520btn%2522%253ELog%2520In%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522item%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520name%253D%2522cart%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2520badge%2522%253E%25204%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522item%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520name%253D%2522heart-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522icon-badge%2520badge%2522%253E%25209%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522right-nav-menu%2522%253E%250A%2520%2520%2520%2520%2520%253Cion-icon%2520name%253D%2522menu-outline%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+  style="width: 732px; height: 763px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
         </section>
         </section>
     </main>

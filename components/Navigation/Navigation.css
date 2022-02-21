@@ -1,12 +1,19 @@
 
-nav{
-    background-color: var(--secondary-color);
+ .nav-component{
+    border-bottom: 1.5px solid var(--gray);
+    height: 5rem;
+    background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    height: 4.5rem;
- }
+}
+ion-icon{
+    color: black;
+}
+.search-bar{
+    border: 2.5px solid var(--black);
+}
 .logo-img{
     height:4.5rem;
     aspect-ratio: 1/1;
@@ -33,11 +40,23 @@ nav{
     padding: 0 0;
 }
 .list-item{
-    margin-right:4rem;
+    margin-left:2.5rem;
 }
 .badge{
     background-color: var(--gray);
+   
 }
 .item{
     color: var(--primary-color);
 }
+.right-nav-menu{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .right-nav{
+        display: none;
+    }
+    .right-nav-menu{
+        display: block;
+    }
+  }
