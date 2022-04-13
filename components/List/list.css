@@ -1,0 +1,27 @@
+
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: var(--text-size-m);
+}
+h1{
+    font-size: var(--heading);
+}
+.disc{
+    list-style-type: disc;
+ }
+.circle{
+    list-style-type: circle;
+}
+.square{
+    list-style-type: square;
+}
+/* .stacked-list > li{
+    border-bottom: 2.5px solid var(--primary-color);
+    background-color: var(--white);
+    box-shadow: 5px 0px 5px 2.5px var(--gray);
+    margin-bottom: 7.5px;
+    padding: 0.5rem 0.5rem ;
+    width: 20vw;
+}  */
