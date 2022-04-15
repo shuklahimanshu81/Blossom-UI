@@ -8,7 +8,7 @@
     align-items: center;
     flex-wrap: nowrap;
 }
-ion-icon{
+.nav-icons{
     color: black;
 }
 .search-bar{
