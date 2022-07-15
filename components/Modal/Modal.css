@@ -1,0 +1,28 @@
+.modal{
+   width: 30vw;
+   border: 1px solid var(--primary-color);
+   border-radius: var(--border-radius-m);
+   margin: 1rem auto;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.modal-heading{
+    font-size: var(--text-size-m);
+    font-weight: 500;
+    border-bottom: 1px solid var(--black);
+    padding: 0.5rem;    
+}
+.about-modal{
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid var(--black);
+    font-size: calc(var(--text-size-m) - 4px);
+}
+
+.modal-buttons{
+    padding: 0.5rem;    
+}
+.modal-buttons :first-child{
+    background-color: var(--primary-btn-color);
+}
+
