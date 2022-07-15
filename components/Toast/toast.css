@@ -1,0 +1,29 @@
+.toast{
+    width: 17.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid var(--black);
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    padding: 0.5rem;
+    border-radius: var(--border-radius-sm);
+    box-shadow: 1px 1px 1px var(--primary-color);
+
+}
+
+.toast-details{
+    font-size: var(--text-size-m);
+}
+
+.close-btn{
+    font-size: var(--text-size-m);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--border-radius-f);
+    border: none;
+    background-color: var(--secondary-color);
+    font-weight: 700;
+}
+
