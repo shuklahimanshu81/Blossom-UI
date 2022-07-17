@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main-css/main.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Docs/Docs.css">
+    <title> Blossom UI/Docs</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="/index.html" class="main-heading"> Blossom UI </a>
+        </div>
+        <ul class="navigation">
+            <li class="nav-items"> <a class="nav-items" href="/Docs/Components-pages/Alerts-page.html"> Documentaton
+                </a></li>
+            <li class="nav-items"> <a class="nav-items" href="/Docs/Docs.html"> Get Started </a></li>
+        </ul>
+    </nav>
+    <main class="main-section-components-demo">
+        <aside class="side-navbar">
+            <div class="section-heading">
+                Get Started
+            </div>
+            <ul class="list">
+                <li class="component"><a href="/Docs/Docs.html"> Introduction </a></li>
+            </ul>
+            <div class="section-heading">
+                Components
+            </div>
+            <ul class="list">
+                <li class="component"><a href="/Docs/Components-pages/Alerts-page.html"> Alerts </a></li>
+                <li class="component  active"><a href="/Docs/Components-pages/avatars-page.html"> Avatars </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Badges-page.html"> Badges </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Buttons-page.html"> Buttons </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Cards-page.html"> Cards </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Grids-page.html"> Grids </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Inputs-page.html"> Inputs </a></li>
+                <li class="component"><a href="/Docs/Components-pages/List-page.html"> List</a></li>
+                <li class="component"><a href="/Docs/Components-pages/Modal-page.html">Modal</a></li>
+                <li class="component"><a href="/Docs/Components-pages/Navigation-page.html"> Navigation </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Rating-page.html">Rating</a></li>
+                <li class="component"><a href="/Docs/Components-pages/Responsive-image-page.html"> Responsive Images</a>
+                </li>
+                <li class="component"><a href="/Docs/Components-pages/Text-utilities-page.html"> Typography </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Toast-page.html"> Toast </a></li>
+            </ul>
+        </aside>
+        <section class="content-section">
+            <section class="content-subsection flex">
+                <p class="heading"> List </p>
+                <p class="content">
+                    There are various kinds of list that we use. To use following lists use classes given with them
+                </p>
+                <section class="content-subsection subsection flex">
+                    <h2 class="component-demo-heading">
+                        Unordered List
+                    </h2>
+                    <p class="content">
+                        For square bulleted list you can use 'square' class, for disc bulleted list use 'disc' class,
+                        for circle use 'circle' class and for stacked list use 'stacked-list' class.
+                    </p>
+
+                    <div class="flex">
+                        <ul class="disc">
+                            <li class="list-item">Item one</li>
+                            <li class="list-item">Item two</li>
+                            <li class="list-item">Item three</li>
+                        </ul>
+
+                        <ul class="circle">
+                            <li class="list-item">Item one</li>
+                            <li class="list-item">Item two</li>
+                            <li class="list-item">Item three</li>
+                        </ul>
+
+                        <ul class="square">
+                            <li class="list-item">Item one</li>
+                            <li class="list-item">Item two</li>
+                            <li class="list-item">Item three</li>
+                        </ul>
+
+                        <ul class="stacked-list">
+                            <li class="list-item">New Notification</li>
+                            <li class="list-item">New Notification</li>
+                            <li class="list-item">New Notification</li>
+                        </ul>
+                    </div>
+                    <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522disc%2522%253E%250A%2520%2520%257Blist%2520items...%257D%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522circle%2522%253E%250A%2520%2520%257Blist%2520items...%257D%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522square%2522%253E%250A%2520%2520%257Blist%2520items...%257D%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Ful%253E%250A%253Cul%2520class%253D%2522stacked-list%2522%253E%250A%2520%2520%257Blist%2520items...%257D%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Ful%253E"
+  style="width: 529px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+                </section>
+               
+            </section>
+    </main>
+</body>
+
+</html>
