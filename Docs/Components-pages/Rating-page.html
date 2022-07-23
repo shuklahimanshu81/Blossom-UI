@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main-css/main.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/Docs/Docs.css">
+    <link rel="stylesheet" href="/components/Rating/rating.css">   
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title> Blossom UI/Docs</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="/index.html" class="main-heading"> Blossom UI </a>
+        </div>
+        <ul class="navigation">
+            <li class="nav-items"> <a class="nav-items" href="/Docs/Components-pages/Alerts-page.html"> Documentaton </a></li>
+            <li class="nav-items"> <a class="nav-items" href="/Docs/Docs.html"> Get Started </a></li>
+        </ul>
+    </nav>
+    <main class="main-section-components-demo">
+        <aside class="side-navbar">
+            <div class="section-heading">
+                Get Started
+            </div>
+            <ul class="list">
+                <li class="component"><a href="/Docs/Docs.html"> Introduction </a></li>
+            </ul>
+            <div class="section-heading">
+                Components
+            </div>
+            <ul class="list">
+               <li class="component"><a href="/Docs/Components-pages/Alerts-page.html"> Alerts </a></li>
+                <li class="component  active"><a href="/Docs/Components-pages/avatars-page.html"> Avatars </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Badges-page.html"> Badges </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Buttons-page.html"> Buttons </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Cards-page.html"> Cards </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Grids-page.html"> Grids </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Inputs-page.html"> Inputs </a></li>
+                <li class="component"><a href="/Docs/Components-pages/List-page.html"> List</a></li>
+                <li class="component"><a href="/Docs/Components-pages/Modal-page.html">Modal</a></li>
+                <li class="component"><a href="/Docs/Components-pages/Navigation-page.html"> Navigation </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Rating-page.html">Rating</a></li>
+                <li class="component"><a href="/Docs/Components-pages/Responsive-image-page.html"> Responsive Images</a></li>
+                <li class="component"><a href="/Docs/Components-pages/Text-utilities-page.html"> Typography </a></li>
+                <li class="component"><a href="/Docs/Components-pages/Toast-page.html"> Toast </a></li>
+            </ul>
+        </aside>
+        <section class="content-section">
+            <section class="content-subsection flex">
+                <p class="heading"> Rating </p>
+                <p class="content">
+                    Rating components can be used as read-only badge or in reviews section. Can be used in reviews section to get users feedback
+                </p>
+        <section class="content-subsection subsection flex">
+            <h2 class="component-demo-heading">Live Rating </h2>
+            <p class="content">
+               Live ratings are used to get users review/feedback 
+            </p>
+
+            <div class="live-ratings">
+                <input type="radio" id="star-1" name="live-rating" class="rating" value="5"/> 
+                <label for="star-1"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="star-2" name="live-rating" class="rating" value="4"/> 
+                <label for="star-2"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="star-3" name="live-rating" class="rating" value="3"/> 
+                <label for="star-3"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="star-4" name="live-rating" class="rating" value="2"/> 
+                <label for="star-4"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="star-5" name="live-rating" class="rating" value="1"/> 
+                <label for="star-5"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+            </div>
+            <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522live-ratings%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star-1%2522%2520name%253D%2522live-rating%2522%2520class%253D%2522rating%2522%2520value%253D%25225%2522%252F%253E%2520%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-1%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star-2%2522%2520name%253D%2522live-rating%2522%2520class%253D%2522rating%2522%2520value%253D%25224%2522%252F%253E%2520%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-2%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star-3%2522%2520name%253D%2522live-rating%2522%2520class%253D%2522rating%2522%2520value%253D%25223%2522%252F%253E%2520%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-3%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star-4%2522%2520name%253D%2522live-rating%2522%2520class%253D%2522rating%2522%2520value%253D%25222%2522%252F%253E%2520%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-4%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star-5%2522%2520name%253D%2522live-rating%2522%2520class%253D%2522rating%2522%2520value%253D%25221%2522%252F%253E%2520%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522star-5%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                    style="width: 867px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            
+        </section>
+        <section class="content-subsection subsection flex">
+            <h2 class="component-demo-heading">Static Rating </h2>
+            <p class="content">
+               Static ratings are used to show users review/feedback.
+            </p>
+
+            <div class="static-rating">
+                <input type="radio" id="stars-1" name="rating" class="rating" value="5" disabled/> 
+                <label for="stars-1"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="stars-2" name="rating" class="rating" value="4" disabled/> 
+                <label for="stars-2"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="stars-3" name="rating" class="rating" chekced value="3" checked disabled/> 
+                <label for="stars-3"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="stars-4" name="rating" class="rating" value="2" disabled/> 
+                <label for="stars-4"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+                <input type="radio" id="stars-5" name="rating" class="rating" value="1" disabled/> 
+                <label for="stars-5"><ion-icon class="rating-icon" name="star"></ion-icon></label>
+            </div>
+            <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522static-rating%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522stars-1%2522%2520name%253D%2522rating%2522%2520class%253D%2522rating%2522%2520value%253D%25225%2522%2520disabled%252F%253E%2520%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522stars-1%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522stars-2%2522%2520name%253D%2522rating%2522%2520class%253D%2522rating%2522%2520value%253D%25224%2522%2520disabled%252F%253E%2520%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522stars-2%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522stars-3%2522%2520name%253D%2522rating%2522%2520class%253D%2522rating%2522%2520chekced%2520value%253D%25223%2522%2520checked%2520disabled%252F%253E%2520%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522stars-3%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522stars-4%2522%2520name%253D%2522rating%2522%2520class%253D%2522rating%2522%2520value%253D%25222%2522%2520disabled%252F%253E%2520%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522stars-4%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522stars-5%2522%2520name%253D%2522rating%2522%2520class%253D%2522rating%2522%2520value%253D%25221%2522%2520disabled%252F%253E%2520%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522stars-5%2522%253E%253Cion-icon%2520class%253D%2522rating-icon%2522%2520name%253D%2522star%2522%253E%253C%252Fion-icon%253E%253C%252Flabel%253E%250A%2520%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </section>
+        </section>
+    </main>
+</body>
+
+</html>
