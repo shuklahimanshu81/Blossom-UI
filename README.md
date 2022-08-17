@@ -29,10 +29,14 @@ Start using Blossom UI in your project just by adding below style tag in your HT
 - Button
 - Card
 - Grid
-- Image
 - Input
+- List
+- Modal
 - Navigation
+- Rating
+- Responsive Image
 - Typography
+- Toast
 
 ###### [Click Here to see the demo](https://ui-blossom.netlify.app)
 ---
